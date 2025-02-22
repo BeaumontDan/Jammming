@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import styles from './App.module.css';
 
 // import components
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import Playlist from '../Playlist/Playlist';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
@@ -104,6 +105,8 @@ const App = () => {
         </div>
 
       </div>
+
+      <Footer />
 
     </>
   );

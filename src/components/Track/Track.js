@@ -32,7 +32,7 @@ const Track = (props) => {
         <div className={styles.Track}>
             <div className={styles.TrackInfo}>
                 <h3>{props.track.name}</h3>
-                <p><span className={styles.Orange}>Artist:</span> {props.track.artist} | <span className={styles.Orange}>Album:</span> {props.track.album}</p>
+                <p><span className={styles.highlight}>Artist:</span> {props.track.artist} | <span className={styles.highlight}>Album:</span> {props.track.album}</p>
             </div>
             {renderAction()}
         </div>

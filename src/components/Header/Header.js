@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.css';
 import logo from './jammming-logo.png';
 
-const App = () => {
+const Header = () => {
 
   return (
     <div className={styles.Header}>
@@ -13,4 +13,4 @@ const App = () => {
 
 };
 
-export default App;
+export default Header;

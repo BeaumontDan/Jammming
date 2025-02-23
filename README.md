@@ -66,7 +66,6 @@ Jammming is an evolving project, future enhancments being considered are:
  - **Album Cover** - Add album cover images to the Track component
  - **Preview Playback Feature** - provide users with an audio preview festure, including controls to play, pause and skip with time bar
     - for details on the planned feautre, see the [feature request documentation][playbackRequest].
-- **Search submit via enter key**
 
 ##### Additional Features to Introduce
 

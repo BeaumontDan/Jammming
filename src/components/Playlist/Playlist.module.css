@@ -1,25 +1,24 @@
 .Playlist {
     border-radius: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     color: #000000;
     width: 45%;
     flex-grow: 1;
     max-height: 60vh;
     overflow: scroll;
-    margin: 1rem;
+    margin: 1rem 1rem;
 }
 
 .playlistName {
     background-color: transparent;
     height: 3rem;
-    width: 400px;
+    width: 99%;
     flex-grow: 1;
     padding-left: 1rem;
     border: none;
     border-radius: 1rem;
     color: #000000;
     background-color: #ffffff;
-    margin-right: 1rem;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }

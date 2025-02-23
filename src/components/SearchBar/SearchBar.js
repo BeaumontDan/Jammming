@@ -23,6 +23,7 @@ const SearchBar = (props) => {
                     type='text'
                     placeholder="Enter a Song, Album, or Artist"
                     onChange={handleTermChange}
+                    onKeyDown={(e) => e.key === 'Enter' && passTerm(e)}
                 />
 
                 <button className={styles.SearchBtn} onClick={passTerm}>Search</button>

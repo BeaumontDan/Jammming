@@ -1,5 +1,3 @@
-require('dotenv').config(); // Load environment variables
-
 const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const redirectUrl = "https://jammming-tracks.netlify.app/";
 

@@ -1,7 +1,7 @@
 let accessToken = "";
 
 const clientID = "520c3806fd5f41bf90fcddc4db84db6a";
-const redirectUrl = "https://jammming-tracks.netlify.app";
+const redirectUrl = "https://jammming-tracks.netlify.app/callback";
 
 const Spotify = {
   getAccessToken() {

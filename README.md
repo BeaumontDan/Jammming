@@ -43,7 +43,7 @@ In this project, you will build a React web application called Jammming. You wil
 
 ## Application Usage
 
-Visit [Jammming][jammmingLink] here!
+Visit [Jammming][jammming] here!
 
 
 ## Technologies & Prereqisites
@@ -87,4 +87,4 @@ This was a daunting project at this point in developer path and at time multiple
 [codecademy]: https://www.codecademy.com/
 [playbackRequest]: https://docs.google.com/document/d/1rh94Sjg0oloCQLz1yexBnm-Q0AumW8opOqk8d6Cr90w/edit?usp=sharing
 [fullstackcourse]: https://www.codecademy.com/learn/paths/full-stack-engineer-career-path
-[jammmingLink]: https://jammming-tracks.netlify.app/
+[jammming]: https://jammming-tracks.netlify.app

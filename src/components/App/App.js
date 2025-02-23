@@ -9,6 +9,8 @@ import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Spotify from '../../util/Spotify';
 
+Spotify.getAccessToken();
+
 const App = () => {
 
   const [searchResults, setSearchResults] = useState([

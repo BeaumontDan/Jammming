@@ -17,4 +17,8 @@ h1 {
 .logo {
     height: 100px;
     width: auto;
+    background-image: url("../../../public/jammming-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

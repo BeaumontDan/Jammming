@@ -11,7 +11,6 @@ const SearchBar = (props) => {
     };
 
     const handleTermChange = ({ target }) => {
-        target.preventDefault();
         setTerm(target.value);
     };
 

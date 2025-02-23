@@ -11,6 +11,7 @@ const SearchBar = (props) => {
     };
 
     const handleTermChange = ({ target }) => {
+        target.preventDefault();
         setTerm(target.value);
     };
 
@@ -26,7 +27,7 @@ const SearchBar = (props) => {
                     onKeyDown={(e) => e.key === 'Enter' && passTerm(e)}
                 />
 
-                <button className={styles.SearchBtn} onClick={passTerm}>Search</button>
+                <button type="button" className={styles.SearchBtn} onClick={passTerm}>Search</button>
         </div>
     );
 };
